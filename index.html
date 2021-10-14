@@ -1,23 +1,22 @@
 <h1>project-1</h1>
 <body>
-<table>
-  <tr>
-    <th>row 1:</th>
-    <td>col 1</td>
-    <td>col 2</td>
-  </tr>
-  <tr>
-    <th rowspan="2">row 2 (this row will span 2 rows):</th>
-    <td>col 1</td>
-    <td>col 2</td>
-  </tr>
-  <tr>
-    <td>col 1</td>
-    <td>col 2</td>
-  </tr>
-   <tr>
-    <th>row 3:</th>
-    <td>col 1</td>
-    <td>col 2</td>
-  </tr>
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Points</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dom</td>
+            <td>6000</td>
+        </tr>
+        <tr class="active-row">
+            <td>Melissa</td>
+            <td>5150</td>
+        </tr>
+        <!-- and so on... -->
+    </tbody>
+</table>
   </body>
